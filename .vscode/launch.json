@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C\\C++",
+            "type": "cppdbg",
+            "request": "launch",
+            "targetArchitecture": "x86",
+            "program": "${workspaceRoot}\\${fileBasenameNoExtension}.exe",
+            "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "externalConsole": true,
+            "preLaunchTask": "g++"
+        }
+    ]
+}
+//  https://blog.csdn.net/lishang6257/article/details/79686424
