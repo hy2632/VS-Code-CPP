@@ -1,6 +1,6 @@
 {
     "command": "g++",
-    "args": ["-g","-std=c++11","${file}","-o","${workspaceRoot}\\${fileBasenameNoExtension}.exe"],
+    "args": ["-g","-std=c++11","${file}","-o","${workspaceRoot}\\Compile\\${fileBasenameNoExtension}.exe"],
     "problemMatcher": {
         "owner": "cpp",
         "fileLocation": ["relative", "${workspaceRoot}"],
