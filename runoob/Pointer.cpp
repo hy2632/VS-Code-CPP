@@ -51,10 +51,7 @@ int main()
 //     return 0;
 // }
 
-
 // 指针的指针
-
-
 
 // #include <iostream>
 
@@ -82,7 +79,23 @@ int main()
 //     return 0;
 // }
 
+#include <iostream>
+// #include <typeinfo>
+
+using namespace std;
+
+int main()
+{
+    int array[5] = {1, 2, 3, 4, 5};
+    int *ptr = array;
 
 
+    cout << "array    " << array << endl;
 
+    cout << "*ptr    " << *ptr << endl;
+    cout << "ptr    " << ptr << endl;
+    cout << "ptr[1]    " << ptr[1] << endl;
+    // cout << "type of array name    " << typeid(array).name() << endl;
 
+    return 0;
+}

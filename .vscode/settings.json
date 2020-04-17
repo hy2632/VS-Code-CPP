@@ -3,7 +3,8 @@
         "ostream": "cpp",
         "cmath": "cpp",
         "iostream": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "typeinfo": "cpp"
     },
 
     "files.defaultLanguage": "cpp", // ctrl+N新建文件后默认的语言
